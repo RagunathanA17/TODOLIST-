@@ -8,9 +8,13 @@ var mainStart = document.getElementById("main-start")
         mainStart.addEventListener("click", ()=>{
             ui.style.display = "block";
             mainStart.style.display = "none";
-            content.style.display = "block"
+            content.style.display = "block";
 
         })
+
+        // click.addEventListener("click", ()=>{
+        //     inputbox.value = ' '
+        // })
 
         function del(event){
             var boxvalue = inputbox.value;
@@ -23,8 +27,16 @@ var mainStart = document.getElementById("main-start")
             
             // console.log(event.target.textContent)
 
+
+
         }
 
         function rem(event){
             event.target.textContent = " "
+        }
+
+        function click(event)
+        {
+
+            console.log(event)
         }
