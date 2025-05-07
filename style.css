@@ -25,6 +25,8 @@ body{
 
 .main{
     border: 1px solid black;
+    border-radius: 7px;
+    background-color: rgb(149, 203, 205, 0.4);
 }
 
 .main h1{
@@ -75,6 +77,16 @@ input{
     border:none
 }
 
+.plus:hover{
+    color: green;
+    font-weight: bolder;
+}
+
 #show{
     margin: 20px;
+}
+
+.main #show h1:hover{
+    color: red;
+    font-weight: bolder;
 }
